@@ -14,6 +14,7 @@ const Topbar = () => {
       <Nav className="me-auto">
         <NavLink to="/home">Home</NavLink>
         <NavLink to="/link">Link</NavLink>
+        <a href="https://drive.google.com/file/d/1eXxhAHcZAD03-0_GI8RCMoGQVUsG_Yam/view?usp=sharing"><button>download resume</button></a>
         
       </Nav>
     </Navbar.Collapse>

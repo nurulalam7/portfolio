@@ -1,10 +1,30 @@
 .work{
     background-color: cornsilk;
 }
+.hov:hover{
+    box-shadow: 5px 5px 5px gray;
+    
+}
+
 .work h2{
     text-align: center;
     color: steelblue;
     margin-bottom: 40px;
     margin-top: 20px;
     font-size: 40px;
+}
+.congugle{
+    display: flex;
+   
+}
+.congugle h5{
+    margin-right: 20px;
+}
+.congugle h5:hover{
+    background-color: black;
+    color: blanchedalmond;
+}
+.tech{
+    background-color: rgb(228, 194, 194);
+    border-radius: 10px;
 }

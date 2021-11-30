@@ -25,6 +25,7 @@ import emailjs from 'emailjs-com';
   };
   return (
     <div className="dash">
+      <h2>contact with us</h2>
               <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="user_name" />
