@@ -1,0 +1,69 @@
+.intro{
+    background-color: lightpink;
+    display: flex;
+}
+.left{
+    flex: .5;
+   
+}
+.right{
+    flex: .5;
+}
+
+.imgcontainer{
+    height: 700px;
+    width: 700px;
+    background-color:indianred;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    display: flex;
+    
+}
+img{
+    height: 60%;
+    border-radius: 5%;
+  
+}
+.wrapperF{
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrapperF img{
+    width:80px;
+    
+    
+}
+.wrapperF span{
+    color: rgb(233, 71, 12);
+}
+.ico{
+    display: flex;
+ 
+   
+   
+   
+
+}
+.ico a{
+    margin-right: 20px;
+}
+i{
+   font-size: 30px;
+}
+.ico button a{
+    text-decoration: none;
+    font-size: 20px;
+   
+  
+
+    
+}
+
+
+
+
