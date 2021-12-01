@@ -2,22 +2,23 @@
     background-color: lightpink;
     display: flex;
 }
-.left{
+/* .left{
     flex: .5;
    
 }
 .right{
     flex: .5;
-}
+} */
 
 .imgcontainer{
-    height: 700px;
-    width: 700px;
+    height: 500px;
+    width: 500px;
     background-color:indianred;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     display: flex;
+    
     
 }
 img{
@@ -66,6 +67,7 @@ i{
 .wrapperF button{
     border-radius: 10px;
 }
+
 
 
 
