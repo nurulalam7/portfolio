@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Intro from './Components/Topbar/Intro/Intro';
+
 import Topbar from './Components/Topbar/Topbar';
-import Portfolio from './Components/Portfolio/Portfolio';
-import Work from './Components/Work/Work';
-import Contact from './Components/Contact/Contact'
+
 import Footer from './Components/Footer/Footer';
-import Background from './Components/Background/Background'
+import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
+import Home from './Components/Home/Home';
+import About from './Components/About/About';
+import SeeMore from './Components/Work/SeeMore';
+
+
 
 
 
@@ -16,19 +19,33 @@ function App() {
     <div className="App">
       
         
+          <Router>
           <Topbar></Topbar>
+          <Switch>
+            <Route exact path="/">
+                <Home></Home>
+            </Route>
+            <Route  path="/home">
+                <Home></Home>
+            </Route>
+            <Route  path="/about">
+                <About></About>
+            </Route>
+            <Route  path="/seemore/:id">
+                <SeeMore></SeeMore>
+            </Route>
+
+          </Switch>
+          <Footer></Footer>
+          </Router>
      
-     <div className="section">
-      <Intro></Intro>
-      <Portfolio></Portfolio>
-      <Work></Work>
-      <Background></Background>
-      <Contact></Contact>
-      <Footer></Footer>
+    
+     
+     
       
       
        
-      </div>
+     
     
     </div>
   );

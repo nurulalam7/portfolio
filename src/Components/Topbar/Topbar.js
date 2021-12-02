@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, Nav, Navbar,NavLink } from 'react-bootstrap'
+import { Container, Nav, Navbar } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom'
 
 import './Topbar.css'
 
@@ -11,9 +12,9 @@ const Topbar = () => {
     <Navbar.Brand className="logo" href="#home">NURUL <span>ALALM</span></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="me-auto">
-        <NavLink to="/home">Home</NavLink>
-        <NavLink to="/link">Link</NavLink>
+      <Nav className="me-auto top">
+        <NavLink to="/home">HOME</NavLink>
+        <NavLink to="/about">ABOUT</NavLink>
         <a href="https://drive.google.com/file/d/1eXxhAHcZAD03-0_GI8RCMoGQVUsG_Yam/view?usp=sharing"><button>download resume</button></a>
         
       </Nav>

@@ -1,5 +1,7 @@
 import React from 'react'
 import './Intro.css'
+import Typewriter from 'typewriter-effect';
+
 import profile from '../../image/profilepic.jpg'
 import arrow from '../../image/arrow2.png'
 
@@ -18,7 +20,16 @@ const Intro = () => {
                  
                  <h4>Hi There ,I`am</h4>
                  <h1>Nurul alam</h1>
-                 <h3>full stack <span> web developer</span></h3>
+                
+                 <div className="fs-3 fw-bold">
+                 <Typewriter
+                        options={{
+                          strings: ['full stack web developer'],
+                          autoStart: true,
+                          loop: true,
+                        }}
+                      />
+                 </div>
                  <div className="ico">
                  <a href='https://www.facebook.com/profile.php?id=100007789508072'> <i class="fab fa-facebook-square"></i></a>
                  <a href="https://www.linkedin.com/in/nurul-alam-0418971bb/"><i class="fab fa-linkedin"></i></a>
